@@ -1,0 +1,73 @@
+ProbiSuk
+
+----------------------------------------------------------------------
+Color code:
+
+green color :
+#058789
+
+red color:
+#e03f3e
+
+white color:
+#ffffff
+
+Black color :
+text
+
+------------------------------------------------------------------------
+Important section:
+
+Billing :
+* Generating bill and printing 
+* connected to 
+
+Admin Info : 
+* Inventory 
+* Customer Info
+
+--------------------------------------------------------------------------
+Medicine bill:
+
+* MEdicine 
+	* name of medicine 
+	* Company name
+	* Batch no
+	* Exp date
+	* Mrp
+	* Discount
+	* Total
+* price 
+* Date 
+* Bill number
+* customer name
+  * phone
+  * prescribed by which doc
+  * Address
+* Signature at end
+* At top me :
+	* Medicine name 
+	* Address
+	* license no
+	* Phone number
+-----------------------------------------------------------------------------
+Important AI prompt:
+
+* Make the connection with the data base by creating if its not there and also include the sample medicine with related detailing also for stock manage ment as in shop there is need of managing shop
+	
+----------------------------------------------------------------------------
+* Data bases 
+	probisuk
+	Table
+		current_stock
+		customers
+		customer_medicines
+		medicines_stock
+		stock_entries
+		suppliers
+		users
+
+-------------------------------------------------------------------------------------
+
+current stock dekhne ka prompt ::
+I want all the data of current stock of medicine to be displayed from my database "probisuk" and table "current_stock" , which is connected with "medicines_stock" by medicine id in a html page
